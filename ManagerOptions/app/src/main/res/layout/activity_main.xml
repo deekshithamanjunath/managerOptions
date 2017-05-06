@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deekshithamanjunath.manageroptions.MainActivity">
+
+    <Button
+        android:id="@+id/addItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ADD"
+        android:drawableLeft="@mipmap/ic_launcher_add"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/editItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="EDIT"
+        android:drawableLeft="@mipmap/ic_launcher_edit"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/addItems"
+        android:layout_alignStart="@+id/addItems"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:id="@+id/deleteItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="DELETE"
+        android:drawableLeft="@mipmap/ic_launcher_delete"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/editItems"
+        android:layout_alignStart="@+id/editItems" />
+
+</RelativeLayout>
